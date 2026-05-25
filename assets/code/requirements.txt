@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-requests
-pydantic
-python-dotenv
-paho-mqtt
-pandas
-matplotlib

@@ -1,41 +1,31 @@
 ---
-layout: default
 title: "Recursos visuales sugeridos"
+nav_order: 2
 parent: "Recursos"
-nav_order: 3
 ---
 # Recursos visuales sugeridos
 
-Esta página lista recursos que conviene agregar manualmente conforme se imparta el curso.
+Los siguientes recursos deben agregarse durante el curso según disponibilidad del profesor:
 
-## Videos sugeridos a grabar
+## Videos propios sugeridos
 
-- Instalación de Ollama y ejecución de primer modelo.
-- Benchmark de un modelo local y lectura de CSV.
-- Frontend llamando a backend FastAPI.
-- LLM generando JSON para un robot virtual.
-- Publicación MQTT y visualización en un cliente.
-- Uso seguro de `.env` y variables de entorno.
-- Demo de agente con skills y parada segura.
-- Demo final de proyecto.
+- Instalación de Ollama en Windows.
+- Ejecución de primer benchmark.
+- Explicación de tokens con un tokenizer visual.
+- Flujo completo LLM → FastAPI → MQTT → robot virtual.
+- Demo de agente con skills.
+
+## Imágenes sugeridas
+
+- Capturas de Ollama corriendo en terminal.
+- Capturas de uso de GPU/VRAM.
+- Diagrama del proyecto final de cada equipo.
+- Fotografías del sistema embebido usado.
+- Capturas del broker MQTT.
 
 ## Diagramas incluidos
 
-- `assets/img/diagramas/arquitectura-llm-local.svg`
-- `assets/img/diagramas/llm-mqtt-robot.svg`
-- `assets/img/diagramas/ciclo-agente.svg`
-- `assets/img/diagramas/vlm-robotica.svg`
-
-## Cómo insertar un video local
-
-```html
-<video controls width="100%">
-  <source src="../assets/videos/nombre-del-video.mp4" type="video/mp4">
-</video>
-```
-
-## Cómo insertar una imagen
-
-```markdown
-![Descripción](../assets/img/diagramas/archivo.svg)
-```
+- `assets/diagrams/arquitectura_llm_robotica.svg`
+- `assets/diagrams/transformer_conceptual.svg`
+- `assets/diagrams/benchmark_pipeline.svg`
+- `assets/diagrams/agente_skills_loop.svg`

@@ -1,29 +1,24 @@
 # Prospectiva Tecnológica: IA con LLM para Automatización y Robótica
 
-Repositorio académico en formato **Just the Docs** para impartir un curso intensivo de 6 semanas sobre prospectiva tecnológica aplicada al uso de IA generativa, LLM, APIs, agentes y automatización/robótica.
+Repositorio académico en formato Just the Docs para impartir un curso intensivo de 6 semanas.
+El repositorio está organizado como manual de clase, material de lectura, guía de prácticas y repositorio de código base.
+
+## Uso rápido
+
+1. Sube este contenido a un repositorio de GitHub.
+2. Ajusta `url` y `baseurl` en `_config.yml`.
+3. Activa GitHub Pages desde `Settings > Pages`.
+4. Agrega videos propios en `assets/videos/` y actualiza los enlaces sugeridos en `recursos/recursos-visuales.md`.
 
 ## Estructura
 
-- `index.md`: página inicial del curso.
-- `cronograma.md`: planeación resumida de sesiones.
-- `temas/`: páginas de contenido teórico-práctico usadas como material de clase.
-- `sesiones/`: guías sesión por sesión.
-- `practicas/`: instrucciones de prácticas y checklist de reporte tipo FabAcademy.
-- `proyecto/`: lineamientos, rúbrica y checkpoints del proyecto integrador.
-- `recursos/`: instalación, documentación y referencias.
-- `assets/code/`: código base para prácticas.
-- `assets/img/diagramas/`: diagramas editables en SVG.
+- `modulos/`: desarrollo académico de los temas.
+- `practicas/`: prácticas paso a paso con checklist tipo FabAcademy.
+- `codigo/`: código base para clase y prácticas.
+- `assets/diagrams/`: diagramas SVG editables.
+- `proyecto/`: lineamientos del proyecto final.
+- `recursos/`: bibliografía, lecturas, recursos visuales y rúbricas.
 
-## Publicación en GitHub Pages
+## Versión académica ampliada
 
-1. Crear un repositorio nuevo.
-2. Subir estos archivos a la rama `main`.
-3. En GitHub, ir a `Settings > Pages`.
-4. Seleccionar publicación desde GitHub Actions o desde rama `main`.
-5. Ajustar en `_config.yml`:
-   - `url: "https://TU_USUARIO.github.io"`
-   - `baseurl: "/NOMBRE_DEL_REPO"`
-
-## Fuentes
-
-El contenido incluye fuentes académicas y documentación oficial, entre ellas: Vaswani et al. (2017), Hugging Face Transformers, Ollama, OASIS MQTT, MDN WebSocket, FastAPI, OpenAI, Gemini, Anthropic, xAI, RT-2, PaLM-E, SayCan, ReAct y Toolformer.
+Esta versión incluye módulos con estado del arte, instructivos paso a paso, prácticas documentables y código base ejecutable.

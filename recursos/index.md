@@ -1,9 +1,8 @@
 ---
-layout: default
 title: "Recursos"
-nav_order: 7
+nav_order: 5
 has_children: true
 ---
 # Recursos
 
-Guías de instalación, documentación, referencias, plantillas y código base para el curso.
+Esta sección concentra referencias, recursos visuales, recomendaciones de lectura y lineamientos de documentación.

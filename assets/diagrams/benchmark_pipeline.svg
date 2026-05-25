@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+  <rect width="1100" height="420" fill="#f8fafc"/>
+  <text x="40" y="48" font-family="Arial" font-size="26" font-weight="700">Pipeline de evaluación de modelos LLM locales</text>
+  <g font-family="Arial" font-size="16" fill="#111827">
+    <rect x="60" y="120" width="170" height="90" rx="16" fill="#fff" stroke="#cbd5e1"/><text x="92" y="155" font-weight="700">Prompts</text><text x="84" y="183">casos de prueba</text>
+    <rect x="280" y="120" width="180" height="90" rx="16" fill="#fff" stroke="#cbd5e1"/><text x="325" y="155" font-weight="700">Runner</text><text x="310" y="183">Python + Ollama</text>
+    <rect x="510" y="120" width="180" height="90" rx="16" fill="#fff" stroke="#cbd5e1"/><text x="552" y="155" font-weight="700">Métricas</text><text x="532" y="183">tiempo, tokens, error</text>
+    <rect x="740" y="120" width="180" height="90" rx="16" fill="#fff" stroke="#cbd5e1"/><text x="785" y="155" font-weight="700">CSV</text><text x="762" y="183">datos reproducibles</text>
+    <rect x="490" y="280" width="220" height="90" rx="16" fill="#fff" stroke="#cbd5e1"/><text x="545" y="315" font-weight="700">Reporte</text><text x="520" y="343">gráficas + análisis</text>
+  </g>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker></defs>
+  <g stroke="#111827" stroke-width="2.2" fill="none" marker-end="url(#m)">
+    <path d="M230 165 H280"/><path d="M460 165 H510"/><path d="M690 165 H740"/><path d="M830 210 C830 260 710 260 650 280"/><path d="M550 280 C455 260 365 230 365 210" stroke-dasharray="7 5"/>
+  </g>
+</svg>

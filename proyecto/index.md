@@ -1,40 +1,48 @@
 ---
-layout: default
 title: "Proyecto final"
-nav_order: 7
+nav_order: 4
 has_children: true
 ---
 # Proyecto final
 
 ## Objetivo
 
-Desarrollar un prototipo funcional donde un LLM o agente interprete instrucciones humanas y participe en una arquitectura de automatización o robótica, física, virtual o simulada, con medición técnica y análisis prospectivo.
-
-## Flujo mínimo esperado
-
-```text
-Instrucción humana → LLM/agente → salida estructurada → validación → comunicación → acción → retroalimentación → evidencia
-```
+Desarrollar un prototipo funcional donde un LLM o agente interprete instrucciones humanas y controle, asista o planifique acciones para un sistema de automatización o robótica, físico, virtual o simulado.
 
 ## Requisitos mínimos
 
-- Caso de uso de automatización o robótica claramente definido.
-- Escenario prospectivo y justificación tecnológica.
-- Arquitectura documentada.
-- Modelo local o API comercial justificada.
-- Prompt o agente con salida estructurada.
-- Comunicación con actuador, robot virtual, simulador o sistema embebido.
-- Medición de latencia, éxito/falla, costo o recursos.
-- Retroalimentación de estado, sensor, cámara, telemetría o simulación.
-- Repositorio documentado y reproducible.
+- Interfaz de usuario o mecanismo de entrada de instrucciones.
+- LLM local o API comercial.
+- Salida estructurada validada.
+- Comunicación con simulador, broker, backend o sistema embebido.
+- Registro de métricas.
+- Capa de seguridad o rechazo.
+- Documentación tipo FabAcademy.
 
-## Checkpoints
+## Arquitecturas aceptadas
 
-| Semana | Entregable |
-|---:|---|
-| 1 | Ficha v0: problema, usuario, sistema, tendencia y arquitectura preliminar |
-| 2 | Escenario, diagrama de integración y prompt inicial |
-| 3 | Flujo funcional extremo a extremo |
-| 4 | Integración de feedback o percepción |
-| 5 | Demo alfa y protocolo de pruebas |
-| 6 | Demo final, reporte, video, repositorio y presentación |
+1. LLM → JSON → robot virtual.
+2. LLM → MQTT → ESP32/actuador simple.
+3. VLM → análisis de imagen → acción sugerida.
+4. Agente → skills → simulador.
+5. Chatbot técnico → diagnóstico o configuración de sistema.
+
+## Entrega final
+
+- Repositorio/documentación.
+- Demo en video.
+- Código ejecutable.
+- Diagrama de arquitectura.
+- Resultados medidos.
+- Análisis prospectivo.
+- Discusión de riesgos.
+
+## Rúbrica resumida
+
+| Criterio | Porcentaje |
+|---|---:|
+| Arquitectura y funcionamiento | 25% |
+| Integración LLM/comunicación/robot | 25% |
+| Medición y análisis | 20% |
+| Seguridad y validación | 15% |
+| Documentación | 15% |

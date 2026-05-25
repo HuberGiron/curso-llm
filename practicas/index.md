@@ -1,17 +1,21 @@
 ---
-layout: default
-title: "Prácticas"
-nav_order: 6
+title: "Prácticas tipo FabAcademy"
+nav_order: 3
 has_children: true
 ---
-# Prácticas
+# Prácticas tipo FabAcademy
 
-Las prácticas están diseñadas para documentarse en repositorios personales o por equipo, siguiendo un estilo tipo FabAcademy: objetivo claro, proceso reproducible, evidencia, análisis y reflexión.
+Cada práctica debe documentarse en un repositorio o sitio individual. El objetivo no es entregar únicamente código, sino construir evidencia reproducible: qué se intentó, cómo se configuró, qué falló, qué se midió y qué se concluyó.
 
-## Reglas generales
+## Checklist general para TODAS las prácticas
 
-- Cada práctica debe tener una página propia en el repositorio del estudiante.
-- Todo código debe incluir instrucciones de ejecución.
-- Toda prueba debe incluir evidencia: captura, tabla, video, log o gráfica.
-- Los errores y fallas también se documentan; no se borran del proceso.
-- Cada práctica debe cerrar con aprendizajes, límites y mejoras.
+- [ ] Objetivo de la práctica en tus palabras.
+- [ ] Diagrama o fotografía de la arquitectura usada.
+- [ ] Lista de materiales, software, versiones y modelos.
+- [ ] Procedimiento paso a paso.
+- [ ] Código comentado o enlace al archivo principal.
+- [ ] Evidencia de ejecución: capturas, video, logs o gráficas.
+- [ ] Tabla de resultados o métricas.
+- [ ] Problemas encontrados y solución.
+- [ ] Reflexión: qué aprendiste y qué cambiarías.
+- [ ] Referencias utilizadas.

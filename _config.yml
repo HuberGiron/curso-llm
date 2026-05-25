@@ -1,5 +1,5 @@
-title: Prospectiva Tecnológica IA-LLM-Robótica
-description: Curso de prospectiva tecnológica enfocado en IA con LLM para automatización y robótica
+title: Prospectiva Tecnológica IA + LLM + Robótica
+description: Curso académico sobre prospectiva tecnológica aplicada al uso de IA generativa, LLM, agentes y automatización en robótica.
 
 remote_theme: just-the-docs/just-the-docs
 plugins:
@@ -12,21 +12,38 @@ baseurl: "/curso-llm"
 just_the_docs:
   custom_css:
     - "assets/css/custom.css"
-  footer_content: "Prospectiva Tecnológica · IA con LLM para Automatización y Robótica"
+  footer_content: ""
 
 search_enabled: true
 search:
-  heading_level: 2
+  heading_level: 3
 
 aux_links:
   "Repositorio en GitHub":
-    - "https://github.com/HuberGiron/prospectiva-tecnologica-ia-llm-robotica"
+    - "https://github.com/HuberGiron/curso-llm"
 
 permalink: pretty
+
+callouts:
+  objetivo:
+    title: Objetivo de aprendizaje
+    color: blue
+  practica:
+    title: Práctica guiada
+    color: green
+  evidencia:
+    title: Evidencia esperada
+    color: purple
+  advertencia:
+    title: Cuidado técnico
+    color: red
+  lectura:
+    title: Lectura académica
+    color: yellow
 
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "node_modules"
   - "vendor"
-  - "build_course_repo.py"
+  - "README_DEV.md"

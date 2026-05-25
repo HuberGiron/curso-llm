@@ -1,0 +1,10 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chatbot local</title>
+<style>body{font-family:Arial;margin:2rem;max-width:900px}textarea{width:100%;height:100px}pre{background:#111827;color:white;padding:1rem;border-radius:10px;white-space:pre-wrap}</style></head>
+<body><h1>Chatbot local con Ollama</h1><label><input type="checkbox" id="robot"> Modo robot JSON</label><textarea id="prompt">Ve al centro en 5 segundos</textarea><button onclick="send()">Enviar</button><pre id="out"></pre>
+<script>
+async function send(){
+  const body={prompt:prompt.value, robot_mode:robot.checked};
+  const r=await fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  out.textContent=JSON.stringify(await r.json(), null, 2);
+}
+</script></body></html>
