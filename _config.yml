@@ -7,7 +7,7 @@ plugins:
   - jekyll-seo-tag
 
 url: "https://hubergiron.github.io"
-baseurl: "/prospectiva-tecnologica-ia-llm-robotica"
+baseurl: "/curso-llm"
 
 just_the_docs:
   custom_css:
